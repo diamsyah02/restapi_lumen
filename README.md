@@ -1,7 +1,7 @@
 # restapi_lumen
  Latihan membuat restful api dengan lumen & JWT
  
-#referensi belajar
+# referensi belajar
  https://blog.cacan.id/rest-api-dengan-json-web-token-lumen-7/
  
 # additional

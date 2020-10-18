@@ -14,20 +14,20 @@
 # doc restful api for testing
 - Login
   - method
-    POST
+    - POST
   - headers
-    "Content-Type" : "application/x-www-form-urlencoded"
+    - "Content-Type" : "application/x-www-form-urlencoded"
   - body
-    application/x-www-form-urlencoded
-    ["email", "diamsyahmd@gmail.com"], ["password", "rahasia123"]
+    - application/x-www-form-urlencoded
+    - ["email", "diamsyahmd@gmail.com"], ["password", "rahasia123"]
   - endpoint
-    http://lumen.diamsyah.com/login
+    - http://lumen.diamsyah.com/login
     
 - Product
   - method
-    GET
+    - GET
   - headers
-    "Authorization" : "Bearer (token login)"
+    - "Authorization" : "Bearer (token login)"
   - endpoint
-    http://lumen.diamsyah.com/product
-    http://lumen.diamsyah.com/product/{id}
+    - http://lumen.diamsyah.com/product
+    - http://lumen.diamsyah.com/product/{id}
